@@ -1,0 +1,6 @@
+framework module Pods_ThymeTests {
+  umbrella header "Pods-ThymeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
