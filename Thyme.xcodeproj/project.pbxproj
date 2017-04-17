@@ -134,7 +134,7 @@
 		B4F5E34B1EA435F5007E174F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4CBACE151E8EDC5E00666671 /* LaunchScreen.storyboard */,
+				4CBACE0D1E8EDC5E00666671 /* Main.storyboard */,
 				4CBACE0B1E8EDC5E00666671 /* ViewController.swift */,
 			);
 			name = Views;
@@ -144,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				4CBACE091E8EDC5E00666671 /* AppDelegate.swift */,
-				4CBACE0D1E8EDC5E00666671 /* Main.storyboard */,
+				4CBACE151E8EDC5E00666671 /* LaunchScreen.storyboard */,
 				4CBACE131E8EDC5E00666671 /* Assets.xcassets */,
 				4CBACE181E8EDC5E00666671 /* Info.plist */,
 				4CBACE101E8EDC5E00666671 /* Thyme.xcdatamodeld */,
@@ -155,8 +155,8 @@
 		B4F5E34D1EA43632007E174F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B4F5E3591EA45235007E174F /* Content.swift */,
 				B4F5E3531EA44D1A007E174F /* Item.swift */,
+				B4F5E3591EA45235007E174F /* Content.swift */,
 				B4D2C8071EA454A300599A94 /* ThymeImage.swift */,
 			);
 			name = Models;
