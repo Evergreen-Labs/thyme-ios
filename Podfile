@@ -9,6 +9,7 @@ target 'Thyme' do
   pod 'Alamofire'
   pod 'Nuke'
   pod 'Nuke-Alamofire-Plugin'
+  pod 'RealmSwift'
 
   target 'ThymeTests' do
     inherit! :search_paths
