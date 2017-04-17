@@ -4,17 +4,25 @@ PODS:
   - Nuke-Alamofire-Plugin (1.0.1):
     - Alamofire (~> 4.0)
     - Nuke (~> 4.0)
+  - Realm (2.5.1):
+    - Realm/Headers (= 2.5.1)
+  - Realm/Headers (2.5.1)
+  - RealmSwift (2.5.1):
+    - Realm (= 2.5.1)
 
 DEPENDENCIES:
   - Alamofire
   - Nuke
   - Nuke-Alamofire-Plugin
+  - RealmSwift
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   Nuke: 7cfd2acdf90c36f66e6ea40795bac0d851a9afe0
   Nuke-Alamofire-Plugin: 4832f6786825e3d0d528757828b48c82e6e85225
+  Realm: 32f86104d37c8521f864d4274050b38ba6190733
+  RealmSwift: f719e7511c902b8908593e8f143f59e47931bdb6
 
-PODFILE CHECKSUM: 9f26ee140cd0bac4973ab2b16b58370ff022cc7a
+PODFILE CHECKSUM: 8cae1d4a4ce8b8706d21241c5f58f2d836cbc283
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1
