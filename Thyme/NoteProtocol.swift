@@ -1,5 +1,5 @@
 //
-//  ItemProtocol.swift
+//  NoteProtocol.swift
 //  Thyme
 //
 //  Created by Ian Rahman on 4/16/17.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ItemProtocol {
+protocol NoteProtocol: ItemProtocol {
     var id: String { get set }
     var dateCreated: Date { get set }
     var dateDue: Date? { get set }

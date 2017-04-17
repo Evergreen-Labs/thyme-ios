@@ -16,9 +16,12 @@
 		4CBACE221E8EDC5E00666671 /* ThymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBACE211E8EDC5E00666671 /* ThymeTests.swift */; };
 		6B05A5372D1BAA92EF209F1E /* Pods_Thyme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6E148A404F605B812B06C7 /* Pods_Thyme.framework */; };
 		9537D62BA23F73A23925151E /* Pods_ThymeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC3488D60137FC92C8B5E29 /* Pods_ThymeTests.framework */; };
+		B4D2C8081EA454A300599A94 /* ThymeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D2C8071EA454A300599A94 /* ThymeImage.swift */; };
 		B4F5E3501EA44B83007E174F /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */; };
 		B4F5E3521EA44C33007E174F /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3511EA44C33007E174F /* ItemType.swift */; };
 		B4F5E3541EA44D1A007E174F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3531EA44D1A007E174F /* Item.swift */; };
+		B4F5E3581EA450BA007E174F /* NoteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3571EA450BA007E174F /* NoteProtocol.swift */; };
+		B4F5E35A1EA45235007E174F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3591EA45235007E174F /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +50,12 @@
 		4CBACE231E8EDC5E00666671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C90E763538F8C3565816401 /* Pods-ThymeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThymeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThymeTests/Pods-ThymeTests.release.xcconfig"; sourceTree = "<group>"; };
 		AD8C19160E7A98F47A46DBC6 /* Pods-Thyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme/Pods-Thyme.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D2C8071EA454A300599A94 /* ThymeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThymeImage.swift; sourceTree = "<group>"; };
 		B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
 		B4F5E3511EA44C33007E174F /* ItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
 		B4F5E3531EA44D1A007E174F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B4F5E3571EA450BA007E174F /* NoteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteProtocol.swift; sourceTree = "<group>"; };
+		B4F5E3591EA45235007E174F /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		C0D89E81704B9FFC4904BF78 /* Pods-Thyme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme/Pods-Thyme.release.xcconfig"; sourceTree = "<group>"; };
 		DEC3488D60137FC92C8B5E29 /* Pods_ThymeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThymeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,8 +112,10 @@
 		4CBACE081E8EDC5E00666671 /* Thyme */ = {
 			isa = PBXGroup;
 			children = (
-				B4F5E34B1EA435F5007E174F /* Views */,
+				B4F5E3551EA45087007E174F /* Protocols */,
+				B4F5E3561EA450A6007E174F /* Enums */,
 				B4F5E34D1EA43632007E174F /* Models */,
+				B4F5E34B1EA435F5007E174F /* Views */,
 				B4F5E34E1EA43641007E174F /* Services */,
 				B4F5E34C1EA43626007E174F /* Supporting Files */,
 			);
@@ -147,9 +155,9 @@
 		B4F5E34D1EA43632007E174F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */,
-				B4F5E3511EA44C33007E174F /* ItemType.swift */,
+				B4F5E3591EA45235007E174F /* Content.swift */,
 				B4F5E3531EA44D1A007E174F /* Item.swift */,
+				B4D2C8071EA454A300599A94 /* ThymeImage.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -159,6 +167,23 @@
 			children = (
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		B4F5E3551EA45087007E174F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */,
+				B4F5E3571EA450BA007E174F /* NoteProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B4F5E3561EA450A6007E174F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5E3511EA44C33007E174F /* ItemType.swift */,
+			);
+			name = Enums;
 			sourceTree = "<group>";
 		};
 		E1820E519D3A878D2EB6FADD /* Pods */ = {
@@ -377,10 +402,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CBACE0C1E8EDC5E00666671 /* ViewController.swift in Sources */,
+				B4F5E3581EA450BA007E174F /* NoteProtocol.swift in Sources */,
 				4CBACE121E8EDC5E00666671 /* Thyme.xcdatamodeld in Sources */,
+				B4F5E35A1EA45235007E174F /* Content.swift in Sources */,
 				B4F5E3521EA44C33007E174F /* ItemType.swift in Sources */,
 				B4F5E3501EA44B83007E174F /* ItemProtocol.swift in Sources */,
 				B4F5E3541EA44D1A007E174F /* Item.swift in Sources */,
+				B4D2C8081EA454A300599A94 /* ThymeImage.swift in Sources */,
 				4CBACE0A1E8EDC5E00666671 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
