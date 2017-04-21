@@ -8,10 +8,10 @@
 
 import Foundation
 
-enum ItemType {
-    case note
-    case task
-    case quote
-    case reminder
-    case event
+enum ItemType: String {
+    case note = "note"
+    case task = "task"
+    case quote = "quote"
+    case reminder = "reminder"
+    case event = "event"
 }

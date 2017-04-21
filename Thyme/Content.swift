@@ -11,7 +11,7 @@ import RealmSwift
 import UIKit
 
 final class Content: Object {
-    var text: String?
+    dynamic var text: String?
     var images: List<ThymeImage>?
     
     convenience init(text: String?, images: List<ThymeImage>?) {

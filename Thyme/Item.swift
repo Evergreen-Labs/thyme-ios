@@ -10,9 +10,13 @@ import Foundation
 import RealmSwift
 
 final class Item: Object, ItemProtocol {
-    var id: String = ""
-    var dateCreated: Date = Date()
-    var dateDue: Date?
-    var dateCompleted: Date?
-    var type: ItemType = .task
+    dynamic var id: String = ""
+    dynamic var dateCreated: Date = Date()
+    dynamic var dateDue: Date?
+    dynamic var dateCompleted: Date?
+    internal dynamic var privateType: String = ItemType.note.rawValue
+    var type: ItemType {
+        get { return ItemType(rawValue: privateType)! }
+        set { privateType = newValue.rawValue }
+    }
 }

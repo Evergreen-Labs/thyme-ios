@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C6CB81C1EA853F7004C0F7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CB81B1EA853F7004C0F7C /* User.swift */; };
 		4CBACE0A1E8EDC5E00666671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBACE091E8EDC5E00666671 /* AppDelegate.swift */; };
 		4CBACE0C1E8EDC5E00666671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBACE0B1E8EDC5E00666671 /* ViewController.swift */; };
-		4CBACE121E8EDC5E00666671 /* Thyme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CBACE101E8EDC5E00666671 /* Thyme.xcdatamodeld */; };
 		4CBACE141E8EDC5E00666671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBACE131E8EDC5E00666671 /* Assets.xcassets */; };
 		4CBACE171E8EDC5E00666671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBACE151E8EDC5E00666671 /* LaunchScreen.storyboard */; };
 		4CBACE221E8EDC5E00666671 /* ThymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBACE211E8EDC5E00666671 /* ThymeTests.swift */; };
 		6B05A5372D1BAA92EF209F1E /* Pods_Thyme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6E148A404F605B812B06C7 /* Pods_Thyme.framework */; };
 		9537D62BA23F73A23925151E /* Pods_ThymeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC3488D60137FC92C8B5E29 /* Pods_ThymeTests.framework */; };
+		B47FFC351EAA779700826635 /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47FFC341EAA779700826635 /* ItemProtocol.swift */; };
 		B4D2C8081EA454A300599A94 /* ThymeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D2C8071EA454A300599A94 /* ThymeImage.swift */; };
-		B4F5E3501EA44B83007E174F /* ItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */; };
 		B4F5E3521EA44C33007E174F /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3511EA44C33007E174F /* ItemType.swift */; };
 		B4F5E3541EA44D1A007E174F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3531EA44D1A007E174F /* Item.swift */; };
 		B4F5E3581EA450BA007E174F /* NoteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5E3571EA450BA007E174F /* NoteProtocol.swift */; };
@@ -36,10 +36,10 @@
 /* Begin PBXFileReference section */
 		1A6E148A404F605B812B06C7 /* Pods_Thyme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thyme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C91072EEBE4093556195C6 /* Pods-ThymeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThymeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThymeTests/Pods-ThymeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C6CB81B1EA853F7004C0F7C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4CBACE061E8EDC5E00666671 /* Thyme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thyme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBACE091E8EDC5E00666671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CBACE0B1E8EDC5E00666671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CBACE111E8EDC5E00666671 /* Thyme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thyme.xcdatamodel; sourceTree = "<group>"; };
 		4CBACE131E8EDC5E00666671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CBACE161E8EDC5E00666671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CBACE181E8EDC5E00666671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,8 +48,8 @@
 		4CBACE231E8EDC5E00666671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C90E763538F8C3565816401 /* Pods-ThymeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThymeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThymeTests/Pods-ThymeTests.release.xcconfig"; sourceTree = "<group>"; };
 		AD8C19160E7A98F47A46DBC6 /* Pods-Thyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thyme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thyme/Pods-Thyme.debug.xcconfig"; sourceTree = "<group>"; };
+		B47FFC341EAA779700826635 /* ItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
 		B4D2C8071EA454A300599A94 /* ThymeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThymeImage.swift; sourceTree = "<group>"; };
-		B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemProtocol.swift; sourceTree = "<group>"; };
 		B4F5E3511EA44C33007E174F /* ItemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
 		B4F5E3531EA44D1A007E174F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B4F5E3571EA450BA007E174F /* NoteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteProtocol.swift; sourceTree = "<group>"; };
@@ -110,11 +110,13 @@
 		4CBACE081E8EDC5E00666671 /* Thyme */ = {
 			isa = PBXGroup;
 			children = (
+				4CBACE091E8EDC5E00666671 /* AppDelegate.swift */,
 				B4F5E3551EA45087007E174F /* Protocols */,
-				B4F5E3561EA450A6007E174F /* Enums */,
-				B4F5E34D1EA43632007E174F /* Models */,
-				B4F5E34B1EA435F5007E174F /* Views */,
 				B4F5E34E1EA43641007E174F /* Services */,
+				B4F5E34D1EA43632007E174F /* Models */,
+				B47FFC321EAA691D00826635 /* ViewModels */,
+				B47FFC331EAA693E00826635 /* Controllers */,
+				B4F5E34B1EA435F5007E174F /* Views */,
 				B4F5E34C1EA43626007E174F /* Supporting Files */,
 			);
 			path = Thyme;
@@ -129,10 +131,25 @@
 			path = ThymeTests;
 			sourceTree = "<group>";
 		};
-		B4F5E34B1EA435F5007E174F /* Views */ = {
+		B47FFC321EAA691D00826635 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		B47FFC331EAA693E00826635 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				4CBACE0B1E8EDC5E00666671 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B4F5E34B1EA435F5007E174F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CBACE151E8EDC5E00666671 /* LaunchScreen.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -140,11 +157,8 @@
 		B4F5E34C1EA43626007E174F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CBACE091E8EDC5E00666671 /* AppDelegate.swift */,
-				4CBACE151E8EDC5E00666671 /* LaunchScreen.storyboard */,
 				4CBACE131E8EDC5E00666671 /* Assets.xcassets */,
 				4CBACE181E8EDC5E00666671 /* Info.plist */,
-				4CBACE101E8EDC5E00666671 /* Thyme.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,7 +166,9 @@
 		B4F5E34D1EA43632007E174F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4C6CB81B1EA853F7004C0F7C /* User.swift */,
 				B4F5E3531EA44D1A007E174F /* Item.swift */,
+				B4F5E3511EA44C33007E174F /* ItemType.swift */,
 				B4F5E3591EA45235007E174F /* Content.swift */,
 				B4D2C8071EA454A300599A94 /* ThymeImage.swift */,
 			);
@@ -169,18 +185,10 @@
 		B4F5E3551EA45087007E174F /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				B4F5E34F1EA44B83007E174F /* ItemProtocol.swift */,
+				B47FFC341EAA779700826635 /* ItemProtocol.swift */,
 				B4F5E3571EA450BA007E174F /* NoteProtocol.swift */,
 			);
 			name = Protocols;
-			sourceTree = "<group>";
-		};
-		B4F5E3561EA450A6007E174F /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				B4F5E3511EA44C33007E174F /* ItemType.swift */,
-			);
-			name = Enums;
 			sourceTree = "<group>";
 		};
 		E1820E519D3A878D2EB6FADD /* Pods */ = {
@@ -357,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DDBA73EF1AADDAE5D85436FC /* [CP] Check Pods Manifest.lock */ = {
@@ -372,7 +380,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E89FF2B1F20E4C25FBDC339B /* [CP] Copy Pods Resources */ = {
@@ -399,12 +407,12 @@
 			files = (
 				4CBACE0C1E8EDC5E00666671 /* ViewController.swift in Sources */,
 				B4F5E3581EA450BA007E174F /* NoteProtocol.swift in Sources */,
-				4CBACE121E8EDC5E00666671 /* Thyme.xcdatamodeld in Sources */,
+				B47FFC351EAA779700826635 /* ItemProtocol.swift in Sources */,
 				B4F5E35A1EA45235007E174F /* Content.swift in Sources */,
 				B4F5E3521EA44C33007E174F /* ItemType.swift in Sources */,
-				B4F5E3501EA44B83007E174F /* ItemProtocol.swift in Sources */,
 				B4F5E3541EA44D1A007E174F /* Item.swift in Sources */,
 				B4D2C8081EA454A300599A94 /* ThymeImage.swift in Sources */,
+				4C6CB81C1EA853F7004C0F7C /* User.swift in Sources */,
 				4CBACE0A1E8EDC5E00666671 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,19 +633,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4CBACE101E8EDC5E00666671 /* Thyme.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4CBACE111E8EDC5E00666671 /* Thyme.xcdatamodel */,
-			);
-			currentVersion = 4CBACE111E8EDC5E00666671 /* Thyme.xcdatamodel */;
-			path = Thyme.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4CBACDFE1E8EDC5E00666671 /* Project object */;
 }
